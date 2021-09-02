@@ -1,7 +1,7 @@
 @extends('templates.base')
 
-@section('title', 'Product')
+@section('title', 'Contact Us')
 
 @section('content')
-Qui metterò i miei prodotti
+Qui metto i miei contatti
 @endsection

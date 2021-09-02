@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
     <div class="content">
         <div class="logo">
             <img src="/img/dc-logo.png" alt="logo dc" />

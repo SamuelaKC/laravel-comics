@@ -1,0 +1,44 @@
+.content-blu {
+    background-color: $bg-color-blue;
+    color: $bg-font-color;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        padding: 0 10px;
+
+        .container-link {
+            margin-right: 40px;
+
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: $bg-font-color;
+                text-decoration: none;
+            }
+
+            .container-text {
+                margin-left: 10px;
+            }
+
+            .container-image {
+                border: 10px;
+                img {
+                    height: 50px;
+                }
+            }
+            .container-image-visa {
+                border: 10px;
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
