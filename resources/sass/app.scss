@@ -1,0 +1,21 @@
+//
+// Comuni a tutti
+@import "colors";
+@import "fonts";
+
+// Suddivisi per pagina
+@import "header";
+@import "footer";
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
