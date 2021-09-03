@@ -10074,8 +10074,12 @@ h3 {
   justify-content: space-around;
 }
 
+.space {
+  padding: 50px 0 50px 0;
+}
+
 .card-c {
-  margin: 5px;
+  padding-top: 20px;
 }
 .card-c .card-comic-content {
   text-align: center;
@@ -10088,12 +10092,48 @@ h3 {
   width: 150px;
   max-height: 150px;
 }
-.card-c .card-comic-content .title {
+.card-c .card-comic-content .series {
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.content-blu {
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #003f5e;
+  padding-bottom: 15px;
+}
+
+.container-prize {
+  background-color: #55ba59;
+  color: #bafd9c;
+  font-size: 15px;
+  padding: 15px;
+}
+.container-prize .prize-color {
+  color: #fff;
+  font-weight: 700;
+}
+
+.description {
+  padding-top: 15px;
+  color: #c0c0c0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container-gray {
+  background-color: #c0c0c0;
+  color: #333;
+}
+.container-gray .container-gray-font {
+  color: #003f5e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#content-blu {
   background-color: #0282f9;
   color: #fff;
   display: flex;
@@ -10103,36 +10143,40 @@ h3 {
   font-size: 20px;
   padding: 10px;
 }
-.content-blu .navbar-blu {
+#content-blu.active {
+  background-color: #c0c0c0;
+  color: #333;
+}
+#content-blu .navbar-blu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
   padding: 0 10px;
 }
-.content-blu .navbar-blu .container-link {
+#content-blu .navbar-blu .container-link {
   margin-right: 40px;
 }
-.content-blu .navbar-blu .container-link a {
+#content-blu .navbar-blu .container-link a {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
   text-decoration: none;
 }
-.content-blu .navbar-blu .container-link .container-text {
+#content-blu .navbar-blu .container-link .container-text {
   margin-left: 10px;
 }
-.content-blu .navbar-blu .container-link .container-image {
+#content-blu .navbar-blu .container-link .container-image {
   border: 10px;
 }
-.content-blu .navbar-blu .container-link .container-image img {
+#content-blu .navbar-blu .container-link .container-image img {
   height: 50px;
 }
-.content-blu .navbar-blu .container-link .container-image-visa {
+#content-blu .navbar-blu .container-link .container-image-visa {
   border: 10px;
 }
-.content-blu .navbar-blu .container-link .container-image-visa img {
+#content-blu .navbar-blu .container-link .container-image-visa img {
   width: 50px;
 }
 

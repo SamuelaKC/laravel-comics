@@ -1,5 +1,11 @@
-.content-blu {
+#content-blu {
     background-color: $bg-color-blue;
+
+    &.active {
+        background-color: $footer-link-color;
+        color: $header-link-color;
+    }
+
     color: $bg-font-color;
     display: flex;
     justify-content: center;

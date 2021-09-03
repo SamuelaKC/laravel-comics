@@ -1,5 +1,5 @@
-<div class="content-blu">
-    <div class="navbar-blu">
+<div id="content-blu" class="{{ Request::route()->getName() === 'product' ? 'active' : '' }}">
+    <div class=" navbar-blu">
         <div class="container-link">
             <a href="#">
                 <div class="container-image">

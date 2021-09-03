@@ -26,8 +26,7 @@ Route::get('/product/{id}', function ($id) {
 
     $comics = config('comics'); 
     return view('product', [
-        "arrayId" => $arrayId, 
-        'comics' => $comics
+        'comics' => $comics[$arrayId]
     ]);
 })->name('product');;
 

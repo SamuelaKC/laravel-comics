@@ -1,0 +1,37 @@
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: $title-color-product;
+    padding-bottom: 15px;
+}
+
+.container-prize {
+    background-color: $bg-color-prize;
+    color: $font-color-prize;
+    font-size: 15px;
+    padding: 15px;
+
+    .prize-color {
+        color: $bg-font-color;
+        font-weight: 700;
+    }
+}
+
+.description {
+    padding-top: 15px;
+    color: $footer-link-color;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-gray {
+    background-color: $footer-link-color;
+    color: $header-link-color;
+
+    .container-gray-font {
+        color: $title-color-product;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
