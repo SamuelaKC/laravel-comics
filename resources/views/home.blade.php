@@ -6,10 +6,14 @@
 <div class="container">
     <div class="row">
         @foreach ($comics as $comic)
-        <div class="card-comic col-2">
-            <div class="card-comic-content">
-                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                <div class="title">{{$comic['series']}}</div>
+        <div class="card-c col-2">
+            <div class="card-comic">
+                <a href="{{ route('product', ['id' => $loop->iteration])}}">
+                    <div class="card-comic-content">
+                        <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                        <div class="title">{{$comic['series']}}</div>
+                    </div>
+                </a>
             </div>
         </div>
         @endforeach

@@ -10008,7 +10008,6 @@ h3 {
 }
 
 .content {
-  margin-bottom: 10px;
   background-color: #fff;
 }
 .content .logo {
@@ -10066,21 +10065,30 @@ h3 {
   cursor: pointer;
 }
 
-.card-comic-content {
-  margin: 0 5px;
-  text-align: center;
-  padding: 10px;
+.content-header-2 {
+  background-image: url(/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+  display: flex;
+  justify-content: space-around;
 }
-.card-comic-content img {
+
+.card-c {
+  margin: 5px;
+}
+.card-c .card-comic-content {
+  text-align: center;
+}
+.card-c .card-comic-content img {
   -o-object-fit: none;
      object-fit: none;
   -o-object-position: top;
      object-position: top;
-  width: 200px;
+  width: 150px;
   max-height: 150px;
-  margin-bottom: 1rem;
 }
-.card-comic-content .title {
+.card-c .card-comic-content .title {
   font-weight: 700;
   text-transform: uppercase;
 }

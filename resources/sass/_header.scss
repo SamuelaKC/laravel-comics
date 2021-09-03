@@ -3,7 +3,6 @@
     color: $bg-font-color;
 }
 .content {
-    margin-bottom: 10px;
     background-color: $bg-font-color;
 
     .logo {
@@ -67,4 +66,13 @@
             cursor: pointer;
         }
     }
+}
+
+.content-header-2 {
+    background-image: url(/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    display: flex;
+    justify-content: space-around;
 }

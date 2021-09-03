@@ -20,8 +20,15 @@ Route::get('/', function () {
 ['comics' => $comics]);
 })->name('home');
 
-Route::get('/product', function () {
-    return view('product');
+Route::get('/product/{id}', function ($id) {
+
+    $arrayId = $id -1; 
+
+    $comics = config('comics'); 
+    return view('product', [
+        "arrayId" => $arrayId, 
+        'comics' => $comics
+    ]);
 })->name('product');;
 
 Route::get('/contact-us', function () {

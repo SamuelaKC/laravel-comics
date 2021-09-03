@@ -1,20 +1,21 @@
-.card-comic {
-    &-content {
-        margin: 0 5px;
-        text-align: center;
-        padding: 10px;
+.card-c {
+    margin: 5px;
 
-        img {
-            object-fit: none;
-            object-position: top;
-            width: 200px;
-            max-height: 150px;
-            margin-bottom: 1rem;
-        }
+    .card-comic {
+        &-content {
+            text-align: center;
 
-        .title {
-            font-weight: 700;
-            text-transform: uppercase;
+            img {
+                object-fit: none;
+                object-position: top;
+                width: 150px;
+                max-height: 150px;
+            }
+
+            .title {
+                font-weight: 700;
+                text-transform: uppercase;
+            }
         }
     }
 }
