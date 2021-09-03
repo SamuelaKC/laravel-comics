@@ -1,11 +1,14 @@
 .content-blu {
     background-color: $bg-color-blue;
     color: $bg-font-color;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     font-weight: 700;
     font-size: 20px;
     padding: 10px;
 
-    .navbar {
+    .navbar-blu {
         display: flex;
         justify-content: space-between;
         align-items: center;

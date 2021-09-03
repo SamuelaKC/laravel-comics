@@ -1,6 +1,10 @@
+.content-header-1 {
+    background-color: $link-color;
+    color: $bg-font-color;
+}
 .content {
-    margin-top: 50px;
     margin-bottom: 10px;
+    background-color: $bg-font-color;
 
     .logo {
         width: 40%;

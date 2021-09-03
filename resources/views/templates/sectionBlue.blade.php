@@ -1,6 +1,6 @@
 <div class="content">
     <div class="content-blu">
-        <div class="navbar">
+        <div class="navbar-blu">
             <div class="container-link">
                 <a href="#">
                     <div class="container-image">

@@ -1,4 +1,5 @@
 <div class="container-fluid">
+    <div class="content-header-1">PROVA</div>
     <div class="content">
         <div class="logo">
             <img src="/img/dc-logo.png" alt="logo dc" />
@@ -18,13 +19,10 @@
             </ul>
         </div>
         <div class="search">
-            <input
-                id="search"
-                type="search"
-                name="search"
-                placeholder="Search"
-            />
+            <input id="search" type="search" name="search" placeholder="Search" />
             <button><i class="fa fa-search"></i></button>
         </div>
     </div>
+    <div class="content-header-2">IMMAGINE</div>
+
 </div>
