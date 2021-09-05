@@ -10074,6 +10074,19 @@ h3 {
   justify-content: space-around;
 }
 
+.content-img {
+  background-color: #0282f9;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  max-width: 250px;
+  padding: 5px;
+  z-index: 666;
+  position: relative;
+  top: -25px;
+  left: 19%;
+}
+
 .space {
   padding: 50px 0 50px 0;
 }
@@ -10123,6 +10136,13 @@ h3 {
   font-weight: 700;
 }
 
+.advert {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
+}
+
 .container-gray {
   background-color: #c0c0c0;
   color: #333;
@@ -10131,6 +10151,18 @@ h3 {
   color: #003f5e;
   font-size: 20px;
   font-weight: 700;
+}
+.container-gray .gray-font {
+  color: #003f5e;
+  font-weight: 700;
+}
+.container-gray [class^=textLinea-] {
+  display: inline;
+  color: #0282f9;
+  font-weight: 700;
+}
+.container-gray .textLinea-up {
+  text-transform: uppercase;
 }
 
 #content-blu {
@@ -10141,7 +10173,7 @@ h3 {
   width: 100%;
   font-weight: 700;
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 0 10px 0;
 }
 #content-blu.active {
   background-color: #c0c0c0;
@@ -10182,7 +10214,7 @@ h3 {
 
 .content-1 {
   position: absolute;
-  width: 100%;
+  width: 99%;
   z-index: 1;
 }
 
@@ -10190,7 +10222,7 @@ h3 {
   background-image: url(/img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 470px;
+  max-height: 470px;
   display: flex;
   justify-content: space-around;
 }
@@ -10275,9 +10307,13 @@ h3 {
   font-family: "Roboto", serif;
 }
 
-body {
+#secBody {
   background-color: #1c1c1c;
   color: #fff;
+}
+#secBody.active {
+  background-color: #fff;
+  color: #303030;
 }
 
 .content {

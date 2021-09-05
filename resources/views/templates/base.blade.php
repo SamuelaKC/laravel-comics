@@ -27,7 +27,7 @@ Buon lavoro e buon weekend!! :laptop_parrot:
     <script src="{{ mix('/js/app.js') }}"></script>
 </head>
 
-<body>
+<body id="secBody" class="{{ Request::route()->getName() === 'product' ? 'active' : '' }}">
     <header>
         @include('templates.header')
     </header>

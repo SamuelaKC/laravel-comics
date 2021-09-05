@@ -20,21 +20,25 @@
             <div class="description">{{$comics['description']}}</div>
         </div>
         <div class="col-2">
-            <img src="{{$comics['thumb']}}" alt="{{$comics['series']}}">
+            <div class="advert">ADVERTISEMENT</div>
+            <img src="/img/imageadv.jpg" alt="">
+            <!-- <img src="{{$comics['thumb']}}" alt="{{$comics['series']}}"> -->
         </div>
     </div>
-    <div class="row">
-        <div class="container space">
-            <div class="container-gray">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="container-gray-font">Talent</div>
-                        <div class="row">
-                            <div class="col-4">Art by:</div>
-                            <div class="col-8">
-                                <ul>
+</div>
+<div class="container-fluid">
+    <div class="container-gray">
+        <div class="row">
+            <div class="col-12">
+                <div class="container space">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="container-gray-font">Talent</div>
+                            <div class="row">
+                                <div class="col-4 gray-font">Art by:</div>
+                                <div class="col-8">
                                     @foreach ($comics['artists'] as $artist)
-                                    <li>{{$artist}}</li>
+                                    <div class="textLinea-down">{{$artist}},</div>
                                     @endforeach
                                     <!--  prova codice @php
                                 echo "
@@ -42,34 +46,31 @@
                                 print_r($comics['artists']);
                                 echo "</pre>";
                                 @endphp -->
-                                </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Written By:</div>
-                            <div class="col-8">
-                                <ul>
+                            <div class="row">
+                                <div class="col-4 gray-font">Written By:</div>
+                                <div class="col-8">
                                     @foreach ($comics['writers'] as $writer)
-                                    <li>{{$writer}}</li>
+                                    <div class="textLinea-down">{{$writer}},</div>
                                     @endforeach
-                                </ul>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col-6">
-                        <div class="container-gray-font">Specs</div>
-                        <div class="row">
-                            <div class="col-4">Series:</div>
-                            <div class="col-8">{{$comics['series']}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">U.S. Price:</div>
-                            <div class="col-8">{{$comics['price']}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">On Sale Date:</div>
-                            <div class="col-8">{{$comics['sale_date']}}</div>
+                        <div class="col-6">
+                            <div class="container-gray-font">Specs</div>
+                            <div class="row">
+                                <div class="col-4 gray-font">Series:</div>
+                                <div class="col-8 textLinea-up">{{$comics['series']}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 gray-font">U.S. Price:</div>
+                                <div class="col-8">{{$comics['price']}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 gray-font">On Sale Date:</div>
+                                <div class="col-8">{{$comics['sale_date']}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -77,8 +78,4 @@
         </div>
     </div>
 </div>
-
-
-
-
 @endsection

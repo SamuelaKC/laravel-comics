@@ -25,6 +25,13 @@
     font-weight: 700;
 }
 
+.advert {
+    color: $bg-font-color;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+}
+
 .container-gray {
     background-color: $footer-link-color;
     color: $header-link-color;
@@ -33,5 +40,20 @@
         color: $title-color-product;
         font-size: 20px;
         font-weight: 700;
+    }
+
+    .gray-font {
+        color: $title-color-product;
+        font-weight: 700;
+    }
+
+    [class^="textLinea-"] {
+        display: inline;
+        color: $link-color;
+        font-weight: 700;
+    }
+
+    .textLinea-up {
+        text-transform: uppercase;
     }
 }

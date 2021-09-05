@@ -1,4 +1,4 @@
-<div id="content-blu" class="{{ Request::route()->getName() === 'product' ? 'active' : '' }}">
+<div id="content-blu" class="container-fluid {{ Request::route()->getName() === 'product' ? 'active' : '' }}">
     <div class=" navbar-blu">
         <div class="container-link">
             <a href="#">

@@ -14,6 +14,7 @@
 
 // Suddivisi per pagina
 @import "header";
+@import "sectionHeader";
 @import "home";
 @import "product";
 @import "sectionBlue";
@@ -26,9 +27,14 @@
     font-family: "Roboto", serif;
 }
 
-body {
+#secBody {
     background-color: $bg-color;
     color: $bg-font-color;
+
+    &.active {
+        background-color: $bg-font-color;
+        color: $bg-color-footer;
+    }
 }
 
 .content {

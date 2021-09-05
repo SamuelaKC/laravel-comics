@@ -13,7 +13,6 @@
                   <div><a href="#">Videos</a></div>
                   <div><a href="#">News</a></div>
               </div>
-
               <div class="menu-2">
                   <div class="text-title">SHOP</div>
                   <div><a href="#">Shop DC</a></div>

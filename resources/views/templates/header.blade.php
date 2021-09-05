@@ -24,5 +24,5 @@
         </div>
     </div>
     <div class="content-header-2">IMMAGINE</div>
-
+    <div class="content-header-3"> @include('templates.sectionHeader')</div>
 </div>
