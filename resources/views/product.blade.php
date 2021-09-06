@@ -38,7 +38,12 @@
                                 <div class="col-4 gray-font">Art by:</div>
                                 <div class="col-8">
                                     @foreach ($comics['artists'] as $artist)
-                                    <div class="textLinea-down">{{$artist}},</div>
+                                    <div class="textLinea-down">{{$artist}}</div>
+                                    @if ($loop->last)
+                                    <div class="textLinea-down">.</div>
+                                    @else
+                                    <div class="textLinea-down">,</div>
+                                    @endif
                                     @endforeach
                                     <!--  prova codice @php
                                 echo "
@@ -52,7 +57,12 @@
                                 <div class="col-4 gray-font">Written By:</div>
                                 <div class="col-8">
                                     @foreach ($comics['writers'] as $writer)
-                                    <div class="textLinea-down">{{$writer}},</div>
+                                    <div class="textLinea-down">{{$writer}}</div>
+                                    @if ($loop->last)
+                                    <div class="textLinea-down">.</div>
+                                    @else
+                                    <div class="textLinea-down">,</div>
+                                    @endif
                                     @endforeach
                                 </div>
                             </div>

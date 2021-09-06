@@ -21,5 +21,4 @@
 </div>
 
 <!-- @dump($comics) -->
-
 @endsection
