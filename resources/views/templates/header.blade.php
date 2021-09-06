@@ -2,7 +2,7 @@
     <div class="content-header-1">PROVA</div>
     <div class="content">
         <div class="logo">
-            <img src="/img/dc-logo.png" alt="logo dc" />
+            <a href="{{ route('home') }}"><img src="/img/dc-logo.png" alt="logo dc" /></a>
         </div>
         <div class="navbar">
             <ul>
